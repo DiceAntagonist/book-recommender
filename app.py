@@ -6,7 +6,7 @@ from pathlib import Path
 from sklearn.metrics.pairwise import linear_kernel
 
 st.set_page_config(page_title="Book Recs", page_icon="📚", layout="wide")
-st.title("📚 Book Recommendations")
+st.title("Book Recommendations")
 st.caption("Pick a book. Choose a mood. I will introduce it to its literary cousins.")
 
 BASE_DIR = Path(__file__).resolve().parent
